@@ -1,6 +1,6 @@
 const mongoose = require('mongoose');
 
-mongoose.connect('mongodb://0.0.0.0:27017/contact_db');
+mongoose.connect('mongodb+srv://rohitlohra3036:viVzJ5VlCodVoRE9@cluster0.t61npng.mongodb.net/contactdb');
 
 const db = mongoose.connection;
 
